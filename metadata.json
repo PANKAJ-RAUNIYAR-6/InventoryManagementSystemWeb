@@ -1,0 +1,6 @@
+{
+  "name": "Inventory Management System",
+  "description": "A comprehensive full-stack inventory management system featuring role-based access control, product and category tracking, suppliers, purchase and sales workflows with automatic stock updates, stock history, interactive dashboard, low-stock alerts, and PDF/Excel reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

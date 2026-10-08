@@ -1,0 +1,52 @@
+.inventory-summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.history-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+.history-badge.purchase {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.history-badge.sale {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.history-badge.adjustment {
+  background-color: #fffbeb;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.stock-change-diff {
+  font-weight: 700;
+}
+
+.stock-change-diff.positive {
+  color: #10b981;
+}
+
+.stock-change-diff.negative {
+  color: #ef4444;
+}
+
+@media (max-width: 768px) {
+  .inventory-summary-cards {
+    grid-template-columns: 1fr;
+  }
+}

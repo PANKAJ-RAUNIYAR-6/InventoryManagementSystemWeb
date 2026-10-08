@@ -1,0 +1,58 @@
+.purchase-items-table {
+  width: 100%;
+  margin: 1rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item-row {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr 1.5fr 1.5fr 40px;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.item-row.header {
+  background-color: #f8fafc;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #475569;
+  text-transform: uppercase;
+}
+
+.purchase-total-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.purchase-total-box .total-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.purchase-total-box .total-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+@media (max-width: 640px) {
+  .item-row {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    padding: 0.85rem;
+  }
+  .item-row.header {
+    display: none;
+  }
+}
