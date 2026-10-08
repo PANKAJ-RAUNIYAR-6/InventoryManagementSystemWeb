@@ -6,6 +6,10 @@ The system helps businesses manage products, categories, suppliers, purchases, s
 
 ---
 
+## 🌐 Live Demo
+
+👉 [View Live Website](https://inventorymanagementsystemweb.onrender.com)
+
 ## 📋 Table of Contents
 
 1. [Project Overview](#-project-overview)
