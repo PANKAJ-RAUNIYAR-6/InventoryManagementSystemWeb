@@ -8,7 +8,7 @@ The system helps businesses manage products, categories, suppliers, purchases, s
 
 ## 🌐 Live Demo
 
-👉 [View Live Website](https://inventorymanagementsystemweb.onrender.com)
+👉 [View  OptiStock Website](https://inventorymanagementsystemweb.onrender.com)
 
 ## 📋 Table of Contents
 
@@ -1008,3 +1008,11 @@ PDF / Excel Export
 ```
 
 The application is built as a full-stack system where the React frontend communicates with the Express/Node.js backend APIs, while MongoDB provides persistent data storage.
+
+
+👤 Author
+
+Pankaj Rauniyar
+
+🐙 GitHub: [Pankaj Rauniyar](https://github.com/PANKAJ-RAUNIYAR-6/InventoryManagementSystemWeb)
+
