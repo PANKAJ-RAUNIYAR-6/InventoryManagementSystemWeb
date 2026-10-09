@@ -432,8 +432,8 @@ JWT_EXPIRES_IN=7d
 
 # Initial Admin Credentials
 ADMIN_NAME=System Administrator
-ADMIN_EMAIL=admin@gmail.com
-ADMIN_PASSWORD=admin123
+ADMIN_EMAIL=admin_email
+ADMIN_PASSWORD=admin_email_password
 
 # Client Configuration
 CLIENT_URL=http://localhost:3000
@@ -465,8 +465,8 @@ JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=7d
 
 ADMIN_NAME=System Administrator
-ADMIN_EMAIL=admin@gmail.com
-ADMIN_PASSWORD=change_this_password
+ADMIN_EMAIL=admin_email_id
+ADMIN_PASSWORD=admin_email_password
 
 CLIENT_URL=http://localhost:3000
 VITE_API_URL=/api
@@ -566,8 +566,8 @@ The administrator account is created from the values in `.env` when the applicat
 Current example credentials:
 
 ```text
-Email: admin@gmail.com
-Password: admin123
+Email: admin_email_id
+Password: admin_email_password
 Role: Admin
 ```
 
@@ -910,8 +910,8 @@ npm run dev
 Verify the credentials in `.env`:
 
 ```env
-ADMIN_EMAIL=admin@gmail.com
-ADMIN_PASSWORD=admin123
+ADMIN_EMAIL=admin_email_id
+ADMIN_PASSWORD=admin_password
 ```
 
 Restart the server after changing environment variables.
