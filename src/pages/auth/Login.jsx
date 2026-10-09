@@ -141,11 +141,7 @@ export const Login = () => {
             <Link to="/register">Register here</Link>
           </div>
 
-          <div className="auth-hints">
-            <strong>Default Admin Credentials:</strong>
-            <div>Email: <code>admin@gmail.com</code></div>
-            <div>Password: <code>admin123</code></div>
-          </div>
+   
         </div>
       </div>
     </div>

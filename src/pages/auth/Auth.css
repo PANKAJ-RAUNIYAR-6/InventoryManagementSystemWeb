@@ -90,19 +90,6 @@
   text-decoration: underline;
 }
 
-.auth-hints {
-  margin-top: 1.5rem;
-  background-color: #f8fafc;
-  border: 1px dashed #cbd5e1;
-  border-radius: 8px;
-  padding: 0.85rem;
-  font-size: 0.78rem;
-  color: #475569;
-}
-
-.auth-hints strong {
-  color: #1e293b;
-}
 
 @media (max-width: 480px) {
   .auth-card {
